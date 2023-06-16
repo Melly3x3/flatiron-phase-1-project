@@ -214,3 +214,31 @@
         max-width: 1300px;
         padding: 0 50px;
     }
+
+    .main__content h1 {
+        font-size: 4rem;
+        background-color: purple;
+        background-image: linear-gradient(to top, green 0%, purple 100%);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent;
+    }
+
+    .main__content h2 {
+        font-size: 4rem;
+        background-color: green;
+        background-image: linear-gradient(to top, purple 0%, green 100%);
+        background-size: 100%;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -moz-text-fill-color: transparent; 
+    }
+
+    .main__content p {
+        margin-top: 1rem;
+        font-size: 2rem;
+        font-weight: 700;
+    }
